@@ -1,0 +1,24 @@
+{
+  "name": "duffwedding.com",
+  "version": "1.0.0",
+  "description": "DuffWedding.com!",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify index.js -o build.js",
+    "build": "browserify index.js -o build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/duffwedding.com.git"
+  },
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/duffwedding.com/issues"
+  },
+  "homepage": "https://github.com/TehShrike/duffwedding.com#readme",
+  "devDependencies": {
+    "browserify": "12.0.1",
+    "watchify": "3.6.1"
+  }
+}
