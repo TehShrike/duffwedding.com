@@ -1,4 +1,4 @@
-var marriageTime = new Date('Sat Jan 02 2016 10:30:00 GMT-0600 (CST)')
+var marriageTime = new Date('2018-11-10T00:30:00.000Z')
 var el = document.getElementById('time-left')
 
 function setDisplay() {
