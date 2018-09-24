@@ -1,14 +1,34 @@
 body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+
 	font-family: helvetica;
-	padding-top: 10em;
-	background-color: EEEEEE;
+	background-color: #FEFEFE;
 	text-align: center;
 }
 
-h1 {
-	font-size: 150px;
+div {
+	margin: 32px 16px;
 }
 
-h2 {
+#time-left {
+	font-size: 120px;
+}
+
+.name {
 	font-size: 80px;
+}
+
+@media (max-width: 500px) {
+	#time-left {
+		font-size: 60px;
+	}
+
+	.name {
+		font-size: 40px;
+	}
 }
